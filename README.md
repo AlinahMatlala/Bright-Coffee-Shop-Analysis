@@ -16,4 +16,4 @@ The revenue decline is not one problem. It is three problems.
 Time: afternoons and weekends are slow.Season: February is always slow, and warm weather has no cold drinks. Products: four categories barely sell, but still take up space. We fix time with happy hours and delivery. We fix season with iced drinks in summer and delivery in winter. We fix products by cutting what doesn't sell. Attack all three, and revenue grows
 
 Tools used:
-Databricks, SQL, Excel, Miro, and Canva.
+Databricks (SQL queries), Excel, Miro, and Canva.
