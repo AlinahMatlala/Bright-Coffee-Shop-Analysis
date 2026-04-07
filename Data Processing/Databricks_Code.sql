@@ -11,7 +11,7 @@ SELECT COUNT(*) AS Number_of_rows,
 FROM  `workspace`.`default`.`bright_coffee_shop_analysis`;
 
 ---Check date range
-----We have transaction duration of 6 months( from Jan to June---
+----We have transaction duration of 6 months( from Jan to June)---
 SELECT MIN(transaction_date) AS start_date,
        MAX(transaction_date) AS last_date
 FROM  `workspace`.`default`.`bright_coffee_shop_analysis`;
@@ -32,6 +32,24 @@ FROM `workspace`.`default`.`bright_coffee_shop_analysis`;
 SELECT MIN(unit_price) AS lowest_price,
        MAX(unit_price) AS highest_price
 FROM `workspace`.`default`.`bright_coffee_shop_analysis`;
+
+---how many products were sold per category---
+SELECT SUM(transaction_qty),
+       SUM(unit_price),
+       product_category
+FROM `workspace`.`default`.`bright_coffee_shop_analysis`
+GROUP BY product_category;
+---
+
+SELECT SUM(transaction_qty),
+       product_category
+FROM `workspace`.`default`.`bright_coffee_shop_analysis`
+GROUP BY product_category;
+----------
+SELECT SUM(transaction_qty),
+       transaction_time
+FROM `workspace`.`default`.`bright_coffee_shop_analysis`
+GROUP BY transaction_time;
 
 ---Check products sold at the stores
 SELECT DISTINCT product_category
@@ -128,3 +146,8 @@ GROUP BY  transaction_date,
       product_category,
       product_detail;
      
+
+---
+
+
+
