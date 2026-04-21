@@ -1,19 +1,32 @@
 # Bright-Coffee-Shop-Analysis
-The revenue of the Bright Coffee shop is declining, and some products are underperforming. 
+### Problem Statement.
+The revenue of the Bright Coffee Shop is declining, with several product categories underperforming. Despite having multiple stores and a diverse product range, only a small portion of offerings contributes meaningfully to overall revenue. This indicates inefficiencies in product performance, time-based sales patterns, and seasonal demand.
 
-Aim: Extract insights to help the CEO understand the business better and make better decisions to boost revenue.
+### Aim of the Project
+The aim of this project is to extract actionable insights from sales data to help the CEO better understand business performance and make informed decisions to improve revenue.
 
-Objectives:
-• Which products generate the most revenue
-• What time of day the store performs best
-• Sales trends across products and time intervals
-• Recommendations for improving sales performance
+### Objectives
+- Identify which products generate the most revenue
+- Determine what time of day the store performs best
+- Analyze sales trends across products and time intervals
+- Evaluate underperforming product categories
+- Provide recommendations to improve overall sales performance
 
-Summary:
-We have 3 stores with 9 categories sold in each  store, and only two are performing well (Coffee and Tea); the other two are contributing significantly to the revenue, one can be saved, and the other four are dying. The morning time period performs best across all stores.
+### Summary of Results
+- The business operates 3 stores, each offering 9 product categories
+- Only 2 categories (Coffee and Tea) are performing strongly
+- 2 additional categories contribute moderately to revenue
+- 1 category shows potential for improvement
+- The remaining 4 categories are significantly underperforming and contribute very little
 
-The revenue decline is not one problem. It is three problems.
-Time: afternoons and weekends are slow.Season: February is always slow, and warm weather has no cold drinks. Products: four categories barely sell, but still take up space. We fix time with happy hours and delivery. We fix season with iced drinks in summer and delivery in winter. We fix products by cutting what doesn't sell. Attack all three, and revenue grows
+### Key Insights:
+- Morning is the best-performing time period across all stores
+- Afternoons and weekends are consistently slow
+- February shows a seasonal dip in sales
+- Warmer weather impacts demand due to a lack of cold beverage options
 
-Tools used:
-Databricks (SQL queries), Excel, Miro, and Canva.
+### Tools Used
+Databricks (SQL) – Data extraction and querying
+Excel – Data analysis, pivot tables, and insights
+Miro – Project planning and workflow design
+Canva – Gantt chart and visual planning
