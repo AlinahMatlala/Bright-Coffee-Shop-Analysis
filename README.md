@@ -26,7 +26,7 @@ The aim of this project is to extract actionable insights from sales data to hel
 - Warmer weather impacts demand due to a lack of cold beverage options
 
 ### Tools Used
-Databricks (SQL) – Data extraction and querying
-Excel – Data analysis, pivot tables, and insights
-Miro – Project planning and workflow design
-Canva – Gantt chart and visual planning
+- Databricks (SQL) – Data extraction and querying
+- Excel – Data analysis, pivot tables, and insights
+- Miro – Project planning and workflow design
+- Canva – Gantt chart and visual planning
